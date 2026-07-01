@@ -81,10 +81,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Wholesome breads, cakes, donuts and waffles baked without maida. Less sugar, low calories, big flavour. Order fresh from Bakezilla." },
       { name: "author", content: "Bakezilla" },
       { property: "og:title", content: "Bakezilla — Healthy Bakery & Bread Shop" },
-      { property: "og:description", content: "No maida. Less sugar. Wholesome ingredients. Fresh-baked bread, cakes, donuts and waffles delivered daily." },
+      { property: "og:description", content: "Wholesome breads, cakes, donuts and waffles baked without maida. Less sugar, low calories, big flavour. Order fresh from Bakezilla." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Bakezilla" },
+      { name: "twitter:title", content: "Bakezilla — Healthy Bakery & Bread Shop" },
+      { name: "twitter:description", content: "Wholesome breads, cakes, donuts and waffles baked without maida. Less sugar, low calories, big flavour. Order fresh from Bakezilla." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0e7e855a-402a-4c61-8eee-27ee08ceced7/id-preview-13d8e51b--889d6d2c-5b54-47e4-a2d6-76c54550ca3c.lovable.app-1782897206339.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0e7e855a-402a-4c61-8eee-27ee08ceced7/id-preview-13d8e51b--889d6d2c-5b54-47e4-a2d6-76c54550ca3c.lovable.app-1782897206339.png" },
     ],
     links: [
       {
