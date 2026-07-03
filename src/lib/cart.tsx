@@ -1,4 +1,5 @@
 import { createContext, useContext, useMemo, useState, type ReactNode } from "react";
+import type { CakeConfig } from "@/lib/cake";
 
 export type CartItem = {
   id: string;
@@ -6,6 +7,10 @@ export type CartItem = {
   price: number;
   image: string;
   qty: number;
+  /** Catalog product id — set for standard menu items, absent for custom cakes. */
+  productId?: string;
+  /** Present only for custom "build your own" cakes. */
+  cakeConfig?: CakeConfig;
 };
 
 type CartCtx = {

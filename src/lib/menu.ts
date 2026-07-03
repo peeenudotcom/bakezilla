@@ -30,13 +30,48 @@ export type MenuItem = {
 };
 
 export const menu: MenuItem[] = [
-  { id: "b1", name: "Multigrain Loaf", price: 190, image: multigrain, category: "Breads", tag: "Fresh daily" },
-  { id: "b2", name: "Flaxseed Bread", price: 180, image: flaxseed, category: "Breads", tag: "Omega-3" },
-  { id: "b3", name: "Whole Wheat Sourdough", price: 200, image: wheatSour, category: "Breads", tag: "48hr fermented" },
-  { id: "c1", name: "Belgian Chocolate", price: 220, image: chocoCake, category: "Cakes", tag: "Bestseller" },
+  {
+    id: "b1",
+    name: "Multigrain Loaf",
+    price: 190,
+    image: multigrain,
+    category: "Breads",
+    tag: "Fresh daily",
+  },
+  {
+    id: "b2",
+    name: "Flaxseed Bread",
+    price: 180,
+    image: flaxseed,
+    category: "Breads",
+    tag: "Omega-3",
+  },
+  {
+    id: "b3",
+    name: "Whole Wheat Sourdough",
+    price: 200,
+    image: wheatSour,
+    category: "Breads",
+    tag: "48hr fermented",
+  },
+  {
+    id: "c1",
+    name: "Belgian Chocolate",
+    price: 220,
+    image: chocoCake,
+    category: "Cakes",
+    tag: "Bestseller",
+  },
   { id: "c2", name: "Blueberry Yogurt", price: 210, image: blueberry, category: "Cakes" },
   { id: "c3", name: "Carrot Walnut", price: 210, image: carrot, category: "Cakes" },
-  { id: "c4", name: "Matcha Green Tea", price: 220, image: matchaCake, category: "Cakes", tag: "New" },
+  {
+    id: "c4",
+    name: "Matcha Green Tea",
+    price: 220,
+    image: matchaCake,
+    category: "Cakes",
+    tag: "New",
+  },
   { id: "c5", name: "Lemon Poppy", price: 200, image: lemon, category: "Cakes" },
   { id: "d1", name: "Chocolate Fudge", price: 120, image: chocoDonut, category: "Donuts" },
   { id: "d2", name: "Berry Bliss", price: 120, image: berryDonut, category: "Donuts" },
@@ -47,7 +82,13 @@ export const menu: MenuItem[] = [
   { id: "w2", name: "Berry Compote", price: 190, image: berryW, category: "Waffles" },
   { id: "w3", name: "Dark Chocolate", price: 190, image: chocoW, category: "Waffles" },
   { id: "w4", name: "Nutty Maple", price: 190, image: nuttyW, category: "Waffles" },
-  { id: "s1", name: "Herb & Cheese Bread Sticks", price: 150, image: breadStick, category: "Savory" },
+  {
+    id: "s1",
+    name: "Herb & Cheese Bread Sticks",
+    price: 150,
+    image: breadStick,
+    category: "Savory",
+  },
   { id: "s2", name: "Methi Matar Puff", price: 150, image: methiPuff, category: "Savory" },
   { id: "s3", name: "Spinach & Corn Muffin", price: 130, image: spinachM, category: "Savory" },
   { id: "s4", name: "Masala Oats Cookies", price: 120, image: oatsCookie, category: "Savory" },
@@ -55,6 +96,4 @@ export const menu: MenuItem[] = [
 
 export const categories = ["All", "Breads", "Cakes", "Donuts", "Waffles", "Savory"] as const;
 
-export const freshPicks = ["c1", "b1", "w2", "c4", "d2", "s4"]
-  .map((id) => menu.find((m) => m.id === id)!)
-  .filter(Boolean);
+export const freshPickIds = ["c1", "b1", "w2", "c4", "d2", "s4"];

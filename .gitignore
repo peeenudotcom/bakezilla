@@ -20,6 +20,18 @@ dist-ssr
 .wrangler/
 .dev.vars
 
+# Env & secrets — only .env.example is committed
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel
+
+# Supabase CLI
+supabase/.temp
+supabase/.branches
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
