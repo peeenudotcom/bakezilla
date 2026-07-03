@@ -11,6 +11,7 @@ with Supabase (Postgres) for products, orders, cake requests and contact enquiri
 | Production (Vercel alias) | https://bakezilla-three.vercel.app |
 | Vercel project | `peeenudotcoms-projects/bakezilla` |
 | GitHub repo | https://github.com/peeenudotcom/bakezilla (deploys `main` automatically) |
+| Supabase project | `bakezilla` (`hafvnayowurzdeksvtmn`, Mumbai) — account sukhijaparveen@gmail.com — https://supabase.com/dashboard/project/hafvnayowurzdeksvtmn |
 
 ## Architecture
 
