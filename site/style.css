@@ -196,18 +196,18 @@ section { padding: 72px 0; }
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  overflow: hidden;
   background: linear-gradient(160deg, #efe6d6, #e2d5bf);
   border: 1px solid var(--line);
-  display: grid;
-  place-items: center;
   flex: none;
   box-shadow: var(--shadow);
 }
-.photo-initials {
-  font-family: var(--font-head);
-  font-size: 3rem;
-  color: var(--accent);
-  opacity: 0.7;
+.photo-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  display: block;
 }
 
 .about-text { max-width: 560px; }

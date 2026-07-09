@@ -17,8 +17,7 @@ python3 -m http.server --directory site 8000
 ```
 
 ## To finish before launch
-Search the code for `PLACEHOLDER` comments and replace:
-- About portrait photo
-- Three on-site consultation photos
-- Open Graph share image URL
+- **About portrait** — add `images/manu-loomba-g.jpg` (already wired up; see `images/README.md`)
+- Three on-site consultation photos (search `PLACEHOLDER` in `index.html`)
+- Open Graph share image URL (search `PLACEHOLDER` in `index.html`)
 - Testimonials section (structure noted in `index.html`)
