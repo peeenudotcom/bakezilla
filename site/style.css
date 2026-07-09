@@ -257,8 +257,10 @@ section { padding: 72px 0; }
 }
 
 .gallery-slot {
-  aspect-ratio: 4 / 3;
+  margin: 0;
+  aspect-ratio: 3 / 4;
   border-radius: var(--radius);
+  overflow: hidden;
   background:
     repeating-linear-gradient(
       45deg,
@@ -268,6 +270,12 @@ section { padding: 72px 0; }
       #e5dac6 24px
     );
   border: 1px solid var(--line);
+}
+.gallery-slot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 /* ============================================================

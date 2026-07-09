@@ -8,8 +8,9 @@ Drop real photos here. The page references these exact filenames:
   the CSS focuses slightly above center (`object-position: center 30%`).
 - Keep it optimized for web (ideally under ~300 KB).
 
-## On-site gallery (optional, not yet wired)
-The three slots in the "On-Site Consultations" strip are still styled
-placeholders in `index.html`. To use real photos, replace each
-`<div class="gallery-slot">` with an `<img>` and add the files here, e.g.
-`site-1.jpg`, `site-2.jpg`, `site-3.jpg` (landscape, ~800×600).
+## On-site gallery  →  `site-1.jpg`, `site-2.jpg`, `site-3.jpg`
+- Used in the "On-Site Consultations" strip (already wired up).
+- Slots are portrait (3:4), which suits phone / reel-style shots.
+- Any aspect ratio works — the CSS crops with `object-fit: cover`.
+- Tip: crop out phone status bars and app UI (like/comment counts,
+  "Add comment") so only the photo shows.
